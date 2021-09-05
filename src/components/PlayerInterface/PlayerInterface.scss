@@ -1,0 +1,23 @@
+.player-interface {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 250px;
+  padding: 10px;
+  border-right: 3px solid rgb(255, 137, 27);
+  border-bottom: 3px solid rgb(255, 137, 27);
+  border-bottom-right-radius: 10px;
+
+  background-color: rgba(12, 80, 100, 0.795);
+
+  &__stats-list {
+    list-style: none;
+  }
+
+  &__stats-item {
+    font-size: 1.15rem;
+    color: antiquewhite;
+  }
+}
